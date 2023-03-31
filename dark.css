@@ -1,0 +1,14 @@
+h1,h2,footer{
+  color: white;
+}
+body{
+  background-color: darkslategray;
+}
+.tekst{
+  background-color: dimgrey;
+  color:white;
+}
+.menu_tekst{
+  color:dimgrey;
+}
+

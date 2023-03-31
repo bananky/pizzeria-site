@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zamówienia online</title>
+  <link href="css/kontakt_styles.css" rel="stylesheet"/>
+  <link id="theme-link" rel="stylesheet" href="light.css">
+  <script src="kontakt_gallery.js"></script>
+
+</head>
+<body>
+<button onclick="changeTheme()">Zmien motyw</button>
+<form>
+<h1>Zamów online</h1>
+  <div class="form">
+<fieldset>
+  <label for="first-name">Podaj swoje imię: <input id="first-name" name="first-name" type="text" required /></label>
+  <label for="last-name">Podaj swoje nazwisko: <input id="last-name" name="last-name" type="text" required /></label>
+  <label for="email">Podaj swój adres email: <input id="email" name="email" type="email" required /></label>
+</fieldset>
+<fieldset>
+  <label for="pizza">Wybierz pizze
+    <select id="pizza" name="pizza">
+      <option value="">(wybierz)</option>
+      <option value="1">Margarita</option>
+      <option value="2">Capriciosa</option>
+      <option value="3">Hawajska</option>
+      <option value="4">Salami Premium</option>
+      <option value="5">Calzone</option>
+    </select>
+  </label>
+  <label for="bio">Uwagi do zamówienia:
+    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Chciałabym pizze bez oliwek..."></textarea>
+  </label>
+  <label for="terms-and-conditions" name="terms-and-conditions">
+    <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Akceptuje <a href="#">warunki zamówienia</a>
+  </label>
+</fieldset>
+<input type="submit" value="Wyślij" />
+  </div>
+</form>
+
+
+<div class="row">
+  <div class="column">
+    <img src="margerita.jpg" alt="Pizza Margarita" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="capriciosa.jpg" alt="Pizza Capriciosa" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="hawajska.jpg" alt="Pizza Hawajska" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="salami.jpg" alt="Pizza Salami Premium" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="calzone.jpg" alt="Calzone" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+<div class="container">
+
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+
+  <img id="expandedImg" style="width:100%">
+
+
+  <div id="imgtext"></div>
+</div>
+</body>
+<footer>
+<a class="strona_glowna" href="program.html">Strona główna</a>
+</footer>
+
+</html>

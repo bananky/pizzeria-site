@@ -1,0 +1,15 @@
+h1{
+  color:white;
+
+}
+body{
+  background-color: darkslategray;
+}
+.menu{
+  background-color: dimgrey;
+}
+hr {
+  height: 2px;
+  background-color: lightpink;
+  border-color: lightpink;
+}

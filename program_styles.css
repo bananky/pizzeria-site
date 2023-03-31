@@ -1,0 +1,86 @@
+h1{
+  font-family: Impact, serif;
+  font-size: 80px;
+  text-align:center;
+}
+
+
+h2{
+  font-family: Impact, serif;
+  font-size: 50px;
+  text-align:center;
+}
+body{
+  background-color: bisque;
+}
+
+.nawigacja{
+  font-family: Impact, serif;
+  font-size:30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.menu_tekst{
+  color: rosybrown;
+}
+
+img{
+  width: 100%;
+  height: 500px;
+}
+
+.interior{
+  display: block;
+  width: 60%;
+
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.tekst{
+  background-color: rosybrown;
+  font-family: Impact, serif;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.promocja{
+  min-height: 100%;
+  background-image: url("pizza_na_glowna.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Impact, serif;
+  font-size: 70px;
+  text-align: center;
+  color:white;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  margin-bottom: 40px;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+footer{
+  font-family: Impact, serif;
+  font-size: 20px;
+  text-align:center;
+}
+
+
